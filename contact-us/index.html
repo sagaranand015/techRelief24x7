@@ -4,7 +4,7 @@
 <!--[if gt IE 9]><!-->	<html> <!--<![endif]-->
 	<head>
 		<meta charset="utf-8" />
-		<title>Setup &amp; Install | Tech Support, Computer Support by TechRelief 24x7 - Call : 1-936-230-3496</title>
+		<title>Contact Us | Tech Support, Computer Support by TechRelief 24x7 - Call : 1-936-230-3496</title>
 		<meta name="description" content="Call 1-936-230-3496 toll free and get technical support from TechRelief24x7 technicians to fix antivirus software, Windows OS, install software, internet issues." />
 
 		<!-- mobile settings -->
@@ -15,41 +15,41 @@
 		<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400%7CRaleway:300,400,500,600,700%7CLato:300,400,400italic,600,700" rel="stylesheet" type="text/css" />
 
 		<!-- CORE CSS FOR BOOTSTRAP -->
-		<link href="../../css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+		<link href="../css/bootstrap.min.css" rel="stylesheet" type="text/css" />
 		
 		<!-- THEME CSS -->
-		<link href="../../css/essentials.css" rel="stylesheet" type="text/css" />
-		<link href="../../css/layout.css" rel="stylesheet" type="text/css" />
+		<link href="../css/essentials.css" rel="stylesheet" type="text/css" />
+		<link href="../css/layout.css" rel="stylesheet" type="text/css" />
 
 		<!-- PAGE LEVEL SCRIPTS -->
-		<link href="../../css/header-1.css" rel="stylesheet" type="text/css" />
-		<link href="../../css/lightgrey.css" rel="stylesheet" type="text/css" id="color_scheme" />
+		<link href="../css/header-1.css" rel="stylesheet" type="text/css" />
+		<link href="../css/lightgrey.css" rel="stylesheet" type="text/css" id="color_scheme" />
 
 		<style type="text/css">
 
 			@font-face {
 	            font-family: regularText;
-	            src: url('../../fonts/AlegreyaSansSC-Regular.ttf');
+	            src: url('../fonts/AlegreyaSansSC-Regular.ttf');
 	        }
 
 	        @font-face {
 	            font-family: boldText;
-	            src: url('../../fonts/AlegreyaSansSC-Bold.ttf');
+	            src: url('../fonts/AlegreyaSansSC-Bold.ttf');
 	        }
 
 	        @font-face {
 	            font-family: lightText;
-	            src: url('../../fonts/AlegreyaSansSC-Light.ttf');
+	            src: url('../fonts/AlegreyaSansSC-Light.ttf');
 	        }
 
 	        @font-face {
 	            font-family: mediumText;
-	            src: url('../../fonts/AlegreyaSansSC-Medium.ttf');
+	            src: url('../fonts/AlegreyaSansSC-Medium.ttf');
 	        }
 
 	        @font-face {
 	            font-family: writingText;
-	            src: url('../../fonts/SEGOEUIL.ttf');
+	            src: url('../fonts/SEGOEUIL.ttf');
 	        }
 
 			/*for the smallest phones*/
@@ -116,7 +116,7 @@
 
 	        #headerCarousal {
 		    	margin-top: -80px;
-		    	background: url('../../img/pattern-grid-dark.gif') repeat;
+		    	background: url('../img/pattern-grid-dark.gif') repeat;
 			}
 
 			.carousel-img {
@@ -127,24 +127,68 @@
 				color: #fff;
 			}
 
-			.bold {
-				font-weight: bold;
-			}
-
 			.about-us-content {
 				text-align: left;
 			}
 
+			span.span-headline {
+				font-weight: bold;
+				text-decoration: underline;
+			}
+
+			.about-us-bottom {
+				display: block;
+				float: right;
+				text-align: right;
+			}
+
+			.header-text {
+				font-family: writingText;
+			}
+
+			#alertMsg {
+	        	width: 60%;
+	            z-index:999999; 
+	            margin: 2% 2% 2% 2%;
+	            font-family: boldText;
+	            position: fixed;
+	        }
+
+	        #popup {
+	        	width: 60%;
+	            z-index:999999; 
+	            margin: 2% 2% 2% 2%;    
+	            font-family: boldText;
+	            position: fixed;
+	        }
+
+			.overlay-show {
+				position: fixed;
+				top: 0;
+				left: 0;
+				height: 100%;
+				width: 100%;
+				z-index: 30;
+				background-color: rgba(0,0,0,0.5);
+			}
+			.overlay-remove {
+				position: fixed;
+				top: 0;
+				left: 0;
+				height: 100%;
+				width: 100%;
+				z-index: 30;
+				background-color: rgba(0,0,0,0.5);
+				display: none;
+			}
+			.overlay-img {
+				position: relative;
+				top: 45%;
+				left: 45%;
+	            color: #fff;
+			}
+
 		</style>
-
-		<script type="text/javascript">
-
-			$(document).ready(function() {
-
-
-			});
-
-		</script>
 
 	</head>
 
@@ -183,19 +227,19 @@
 							<nav class="nav-main">
 								<ul id="topMain" class="nav nav-pills nav-main">
 									<li>  
-										<a href="../../index.html">
+										<a href="../index.html">
 											HOME
 										</a>
 									</li>
 									<li>  
-										<a href="#">
+										<a href="">
 											WHAT WE SUPPORT
 										</a>
 										<ul class="dropdown-menu">
-											<li><a href="../../what-we-support/optimization">Optimization</a></li>
-											<li><a href="../../what-we-support/diagnose-repair">Diagnose &amp; Repair</a></li>
-											<li><a href="#">Setup &amp; Install</a></li>
-											<li><a href="../../what-we-support/virus-removal">Virus &amp; Removal</a></li>
+											<li><a href="../what-we-support/optimization">Optimization</a></li>
+											<li><a href="../what-we-support/diagnose-repair">Diagnose &amp; Repair</a></li>
+											<li><a href="../what-we-support/setup-install">Setup &amp; Install</a></li>
+											<li><a href="../what-we-support/virus-removal">Virus &amp; Removal</a></li>
 										</ul>
 									</li>
 									<li>  
@@ -209,7 +253,7 @@
 										</a>
 									</li>
 									<li> 
-										<a href="../../contact-us">
+										<a href="#">
 											CONTACT US
 										</a>
 									</li>
@@ -232,9 +276,30 @@
 			</div>
 			<!-- /header div -->
 
+			<div class="overlay-remove" id="overlay">
+		        <div class="overlay-img">
+		            <img src="../images/load.gif" />
+		        </div>
+			</div>
+
+			<div class="overlay-remove" id="overlay-error">
+			</div>
+
+		    <div id="alertMsg" class="alert alert-warning" role="alert">
+		    </div>
+
+		    <div id="popup" class="alert alert-danger" role="alert">
+		        <button type="button" class="close" id="btnExitPopup" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+		        <div class="progress" style="display: none;">
+		            <div class="progress-bar progress-bar-success progress-bar-striped" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100">
+		                <span class="sr-only"></span>
+		            </div>
+		        </div>
+		    </div>
+
 			<!-- Section 2 -->
 			<section class="height-600" id="slider">
-				<div class="overlay dark-6" style="background:url('../../images/bg2.png')"><!-- dark overlay [0 to 9 opacity] --></div>
+				<div class="overlay dark-6" style="background:url('../images/bg2.png')"><!-- dark overlay [0 to 9 opacity] --></div>
 			
 				<div class="display-table">
 					<div class="display-table-cell vertical-align-middle">
@@ -242,12 +307,12 @@
 
 							<!-- left image -->
 							<div class="col-lg-6 col-md-6">
-								<img src="../../images/setup-install-img.png" alt="TechRelief Setup &amp; Install Support">
+								<img src="../images/2.png" alt="TechRelief About Us">
 							</div>
 
 							<div class="col-lg-6 col-md-6 margin-top-50">
 								<h2 class="header-text">	
-									SETUP <strong>&amp; INSTALL</strong>
+									CONTACT <strong>US</strong>
 								</h2>	
 
 								<h4 class="header-text">
@@ -270,7 +335,6 @@
 			</section>
 			<!-- /Section 2 -->
 
-
 			<!-- Section 2 -->
 			<section id="admin" class="alternate">
 				<div class="container">
@@ -278,7 +342,7 @@
 					<!-- Section Header -->
 					<header class="section-header text-center">
 						<div class="heading-title heading-line-double text-center">
-							<h2>SETUP &amp; INSTALL</h2>
+							<h2>CONTACT US</h2>
 						</div>
 
 						<h3 class="header-text text-center">	
@@ -286,26 +350,47 @@
 						</h3>	
 
 						<h3 class="header-text text-center margin-top-40">
-							Incorrect installation can cause damage to your computer and connected devices. Let Geek's tech experts assist you and ensure a smooth setup and installation experience.
+							We Resolve Every Issue Arising With Your Computer Operating System, Windows, Software, Internet Security, Registry Settings, Sound Drivers etc. In One Call
 						</h3>
 					</header>
 					<!-- /Section Header -->
 						
 					<div class="row text-center wow fadeIn margin-top-20" data-wow-delay="0.1s">
 
-						<div class="col-lg-6 col-md-6">
-							<img src="../../images/installation.png" class="margin-top-50" alt="Setup &amp; Install Content - TechRelief24x7">
+						<div class="container">
+
+							<form id="form-contact">
+								<table class="table">
+									<tr>
+										<td>
+											<input type="text" id="txt-name" class="form-control" placeholder="Enter Name" required />
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<input type="email" id="txt-email" class="form-control" placeholder="Enter Email Address" required />
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<input type="text" id="txt-tel" class="form-control" placeholder="Enter Phone Number" />
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<textarea id="txt-message" class="form-control" placeholder="Enter your message" rows="8" required></textarea>
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<input type="submit" id="btn-contact" class="btn btn-lg btn-primary btn-block" value="Submit" />
+										</td>
+									</tr>
+								</table>
+							</form>
+
 						</div>
 
-						<div class="col-lg-6 col-md-6">
-							<h2 class="text-center">
-								SETUP &amp; INSTALL
-							</h2>
-
-							<h4 class="about-us-content">
-								Whether you need help to set up your PC, install software, or configure applications, AStarComputerHelp’s tech support services have got you covered. The technicians at AStarComputerHelp can customize the settings of your computer and software based on your preferences.Before installing a program, our technicians will make sure that it’s compatible with your computer and other software.Want to install a new OS? Get help from our technicians to migrate the settings and data so that you don’t lose a single file.
-							</h4>
-						</div>
 					</div>
 				</div>
 			</section>
@@ -317,7 +402,7 @@
 
 					<div class="col-lg-3 col-md-3">
 						<div class="text-center">
-							<a href="../../what-we-support/diagnose-repair">
+							<a href="../what-we-support/diagnose-repair">
 								<i class="ico-light ico-lg ico-rounded ico-hover fa fa-coffee"></i>
 								<h3>Diagnose &amp; Repair</h3>
 								<p>Resolve errors and compatibility problems with your applications or hardware running on your pc.</p>
@@ -327,7 +412,7 @@
 
 					<div class="col-lg-3 col-md-3">
 						<div class="text-center">
-							<a href="../../what-we-support/virus-removal">
+							<a href="../what-we-support/virus-removal">
 								<i class="ico-light ico-lg ico-rounded ico-hover fa fa-bar-chart"></i>
 								<h3>Virus Removal</h3>
 								<p>Removing malware and virus by diagnosing your pc and changing the settings of your pc which conflicts.</p>
@@ -337,7 +422,7 @@
 
 					<div class="col-lg-3 col-md-3">
 						<div class="text-center">
-							<a href="#">
+							<a href="../what-we-support/setup-install">
 								<i class="ico-light ico-lg ico-rounded ico-hover fa fa-gear"></i>
 								<h3>Setup &amp; Install</h3>
 								<p>Resolve the conflicts and compatibility problems along with your package applications running on your pc.</p>
@@ -347,7 +432,7 @@
 
 					<div class="col-lg-3 col-md-3">
 						<div class="text-center">
-							<a href="../../what-we-support/optimization">
+							<a href="../what-we-support/optimization">
 								<i class="ico-light ico-lg ico-rounded ico-hover fa fa-trophy"></i>
 								<h3>PC Optimization</h3>
 								<p>Support for optimizing your desktop to double the speed of your desktop and improve its performance by enhancing.</p>
@@ -386,7 +471,7 @@
 					</div>
 
 					<div class="col-lg-4 col-md-4">
-						<img src="../../images/180x290.png" class="img-responsive hidden-sm hidden-xs">
+						<img src="../images/180x290.png" class="img-responsive hidden-sm hidden-xs">
 					</div>
 
 				</div>
@@ -433,12 +518,12 @@
 							<!-- Links -->
 							<h4 class="letter-spacing-1">EXPLORE TECHRELIEF24x7</h4>
 							<ul class="footer-links list-unstyled">
-								<li><a href="../../index.html">Home</a></li>
-								<li><a href="../../about-us">About Us</a></li>
-								<li><a href="../../what-we-support/diagnose-repair">Diagnose &amp; Repair</a></li>
-								<li><a href="#">Setup &amp; Install</a></li>
-								<li><a href="../../what-we-support/optimization">Optimization</a></li>
-								<li><a href="../../what-we-support/virus-removal">Virus Removal</a></li>
+								<li><a href="../index.html">Home</a></li>
+								<li><a href="#">About Us</a></li>
+								<li><a href="../what-we-support/diagnose-repair">Diagnose &amp; Repair</a></li>
+								<li><a href="../what-we-support/setup-install">Setup &amp; Install</a></li>
+								<li><a href="../what-we-support/optimization">Optimization</a></li>
+								<li><a href="../what-we-support/virus-removal">Virus Removal</a></li>
 							</ul>
 							<!-- /Links -->
 
@@ -484,11 +569,11 @@
 				<div class="copyright">
 					<div class="container">
 						<ul class="pull-right nomargin list-inline mobile-block">
-							<li><a href="../../terms/conditions">Terms &amp; Conditions</a></li>
+							<li><a href="../terms/conditions">Terms &amp; Conditions</a></li>
 							<li>&bull;</li>
-							<li><a href="../../terms/privacy">Privacy Policy</a></li>
+							<li><a href="../terms/privacy">Privacy Policy</a></li>
 							<li>&bull;</li>
-							<li><a href="../../terms/refund">Refund Policy</a></li>
+							<li><a href="../terms/refund">Refund Policy</a></li>
 						</ul>
 						&copy; All Rights Reserved, TechRelief Solutions 24x7 Pvt. Ltd.
 					</div>
@@ -504,13 +589,87 @@
 		<a href="#" id="toTop"></a>
 
 
-		<!-- JAVASCRIPT FILES -->
-		<script type="text/javascript">var plugin_path = '../../js/';</script>
-		<script type="text/javascript" src="../../js/jquery-2.1.4.min.js"></script>
+		<!-- PRELOADER CAN COME HERE-->
+		<!-- /PRELOADER -->
 
-		<script type="text/javascript" src="../../js/scripts.js"></script>
+		<!-- JAVASCRIPT FILES -->
+		<script type="text/javascript">var plugin_path = '../js/';</script>
+		<script type="text/javascript" src="../js/jquery-2.1.4.min.js"></script>
+
+		<script type="text/javascript" src="../js/scripts.js"></script>
 
 		<script type="text/javascript">
+
+			$(document).ready(function() {
+
+				var alertMsg = $('#alertMsg').fadeOut();
+	            var popup = $('#popup').fadeOut();    
+	            $('#btnExitPopup').on('click', function() {
+	                popup.children('p').remove();
+	                popup.fadeOut();
+
+	                // to hide the progress bar.
+	                $('.progress').fadeOut();
+	                return false;
+	            });
+
+	        	var overlay = $('#overlay').addClass('overlay-remove');
+	            function showLoading() {
+	            	overlay.removeClass('overlay-remove');
+	            	overlay.addClass('overlay-show');
+	            }
+	            function hideLoading() {
+	            	overlay.removeClass('overlay-show');
+	            	overlay.addClass('overlay-remove');	
+	            }
+
+				$('#form-contact').submit(function() {
+
+					var name = $('#txt-name').val().trim();
+					var email = $('#txt-email').val().trim();
+					var tel = $('#txt-tel').val().trim();
+					var message = $('#txt-message').val().trim();
+
+					showLoading();
+					$.ajax({
+						type: "GET",
+						url: "../backend/AJAXFunctions.php",
+						data: {
+							no: "1", name: name, email: email, tel: tel, message: message
+						},
+						success: function(response) {
+							console.log(response);
+							var res = response.split(" ~~ ");
+							var resp = res[0];
+							var adminResp = res[1];
+							var queryResp = res[2];
+							if(resp == "1") {
+								if(adminResp == "1" || adminResp == "2") {
+									popup.children('p').remove();
+									popup.append("<p>Success! TechRelief Support Team has been notified about your query. We'll get back to you soon.</p>").fadeIn();	
+								} else {
+									popup.children('p').remove();
+									popup.append("<p>Oops! We could not notify the Support team. Please send a mail to <code>info@techrelief24x7.com</code> for all your queries</p>").fadeIn();
+								}
+							} else {
+								popup.children('p').remove();
+								popup.append("<p>We encountered an error while processing your request. Please try again.</p>").fadeIn();
+							}
+						},
+						error: function() {
+							popup.children('p').remove();
+							popup.append("<p>We encountered an error while processing your request. Please try again.</p>").fadeIn();
+						},
+						complete: function() {
+							hideLoading();
+						}
+					});
+
+					return false;
+
+				});
+				
+			});
 
 		</script>
 
