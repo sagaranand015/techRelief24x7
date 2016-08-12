@@ -56,8 +56,6 @@ function SendContactUsQuery($name, $email, $tel, $message) {
 		$queryRes = SendMessage($email, $name, $configs['adminEmail'], $configs['adminName'], $configs['autoQuerySubject'], $queryMessage);
 		$queryStatus = $queryRes[0]['status'];
 
-		echo $queryStatus . " --> ";
-
 		if($queryStatus == 'sent') {
 			$resp = "1";
 			$queryResp = "1";
