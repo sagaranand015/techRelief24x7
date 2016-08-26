@@ -600,5 +600,18 @@
 
 		<script type="text/javascript" src="../js/scripts.js"></script>
 
+		<script type="text/javascript">
+
+			$(document).ready(function() {
+
+				// for the payment button clicks
+				$('#btn-order-instant, #btn-order-299, #btn-order-399, #btn-custom-pay').on('click', function() {
+					window.location.href = "../contact-us?message=PG";
+				});
+
+			});
+
+		</script>
+
 	</body>
 </html>

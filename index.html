@@ -849,22 +849,10 @@
 
 			$(document).ready(function() {
 
-				// for the url canonicalisation of the #TA/#RMP/#ERI
-	            var url = window.location.href;
-	            var section = url.split("#");
-
-	            if(section[1] == undefined || section[1] == "undefined") {
-	            	
-	            } else {
-	            	section[1] = section[1].toUpperCase();
-		            if(section[1] == "RMP" || section[1] == "RMP/") {
-		                window.location.href = "http://mentored-research.com/courses/risk-management";
-		            } else if(section[1] == "TAP" || section[1] == "TAP/") {
-		                window.location.href = "http://mentored-research.com/courses/technical-analysis";
-		            } else if(section[1] == "ERI" || section[1] == "ERI/") {
-		            	window.location.href = "http://mentored-research.com/courses/equity-research-initiative";
-		            }
-	            }
+				// for the payment button clicks
+				$('#btn-order-instant, #btn-order-299, #btn-order-399, #btn-custom-pay').on('click', function() {
+					window.location.href = "contact-us?message=PG";
+				});
 
 			});
 

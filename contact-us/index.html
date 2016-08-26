@@ -152,6 +152,7 @@
 	            margin: 2% 2% 2% 2%;
 	            font-family: boldText;
 	            position: fixed;
+	            display: none;
 	        }
 
 	        #popup {
@@ -160,6 +161,7 @@
 	            margin: 2% 2% 2% 2%;    
 	            font-family: boldText;
 	            position: fixed;
+	            display: none;
 	        }
 
 			.overlay-show {
@@ -642,6 +644,7 @@
 		<script type="text/javascript" src="../js/jquery-2.1.4.min.js"></script>
 
 		<script type="text/javascript" src="../js/scripts.js"></script>
+		<script type="text/javascript" src="../js/custom.js"></script>
 
 		<script type="text/javascript">
 
@@ -713,7 +716,18 @@
 					return false;
 
 				});
-				
+
+				// for displaying the message based on query string
+				var qs = getQueryStrings();
+				if(qs["message"] == "PG") {
+					console.log("This is working!");
+					popup.children('p').remove();
+					popup.append("<p>Hey mate, <br />We're in the process of integrating with our Payment Gateway partners. Please revert to us at <code>info@TechRelief24x7.com</code> or fill out the form below for any queries.</p>").fadeIn();
+				} else {
+					console.log("this is not workin!");
+				}
+
+
 			});
 
 		</script>
